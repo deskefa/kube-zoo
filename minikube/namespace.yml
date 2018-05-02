@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: insight
+---
+# This is actually not network-storage. In a real invironment it could be.
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: network-storage
+provisioner: k8s.io/minikube-hostpath
+reclaimPolicy: Retain

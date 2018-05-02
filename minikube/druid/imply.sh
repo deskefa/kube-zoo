@@ -1,0 +1,1 @@
+docker run -p 8081-8110:8081-8110 -p 8200:8200 -p 9095:9095 -d --name imply imply/imply:2.5.8
