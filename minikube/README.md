@@ -4,4 +4,4 @@
 - https://kubernetes.io/docs/tasks/tools/install-minikube/
 ### On windows
 You can use chocolatey https://chocolatey.org/install to install minkube
-{{$ choco install minikube -y}}
+{$ choco install minikube -y}
